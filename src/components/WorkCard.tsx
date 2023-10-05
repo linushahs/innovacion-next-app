@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 
 interface WorkCardProps {
@@ -29,9 +30,11 @@ function WorkCard({
         }
         style={{ backgroundColor: colors[bgColor] }}
       >
-        <img
+        <Image
           src={imgSrc}
           alt="picture"
+          width={400}
+          height={100}
           className={twMerge("w-full h-full rounded-t-md ", className)}
         />
       </div>

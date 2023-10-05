@@ -12,19 +12,19 @@ function OurWorks() {
         <WorkCard
           title="pulsewave mobile ui design"
           description="web design, visual identity"
-          imgSrc="./pic1.png"
+          imgSrc="/pic1.png"
           bgColor="purple"
           className="w-fit py-4"
         />
         <WorkCard
           title="bonewa mobile app development"
           description="development, deployment"
-          imgSrc="./pic2.png"
+          imgSrc="/pic2.png"
         />
         <WorkCard
           title="pulsewave mobile ui design"
           description="web design, visual identity"
-          imgSrc="./pic3.png"
+          imgSrc="/pic3.png"
           bgColor="green"
           className="w-fit py-4"
         />
@@ -32,7 +32,7 @@ function OurWorks() {
         <WorkCard
           title="bonewa mobile app development"
           description="development, deployment"
-          imgSrc="./pic4.png"
+          imgSrc="/pic2.png"
         />
       </div>
     </section>

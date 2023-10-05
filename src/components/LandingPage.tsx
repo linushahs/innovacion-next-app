@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function LandingPage() {
   return (
     <section className="py-8 px-2 flex flex-col items-center w-full sm:px-8 sm:w-[70%] 2xl:w-[70%] mx-auto">
@@ -11,9 +13,11 @@ function LandingPage() {
         blanditiis quasi id. Quas necessitatibus
       </p>
 
-      <img
-        src="./laptop.png"
+      <Image
+        src="/laptop.png"
         alt="laptop"
+        width={800}
+        height={100}
         className="w-full sm:w-[80%] aspect-[16/9]"
       />
     </section>
